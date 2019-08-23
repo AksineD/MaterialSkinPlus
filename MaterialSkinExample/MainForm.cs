@@ -16,10 +16,11 @@ namespace MaterialSkinExample
             materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
 			materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-			materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
-
-			// Add dummy data to the listview
-	        seedListView();
+            //materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+            //materialSkinManager.ColorScheme = new ColorScheme(0x57C21849, 0x57C21849, 0x57C21849, 0xC21849, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme("57C21849", "57C21849", "57C21849", "57C21849", TextShade.WHITE);
+            // Add dummy data to the listview
+            seedListView();
         }
 
 	    private void seedListView()
@@ -57,13 +58,13 @@ namespace MaterialSkinExample
 	        switch (colorSchemeIndex)
 	        {
 				case 0:
-					materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+					materialSkinManager.ColorScheme = new ColorScheme(0xC2185B, 0xC2185B, 0xC2185B, 0xC2185B, TextShade.WHITE);
 			        break;
 				case 1:
-					materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo700, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
+					//materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo700, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
 			        break;
 				case 2:
-					materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.Green200, Accent.Red100, TextShade.WHITE);
+					//materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.Green200, Accent.Red100, TextShade.WHITE);
 					break;
 	        }
         }
