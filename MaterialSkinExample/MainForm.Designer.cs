@@ -517,9 +517,10 @@ namespace MaterialSkinExample
             this.columnHeader4});
             this.materialListView1.Depth = 0;
             this.materialListView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialListView1.Font = new System.Drawing.Font("Roboto", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
+            this.materialListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
             this.materialListView1.FullRowSelect = true;
             this.materialListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.materialListView1.HideSelection = false;
             this.materialListView1.Location = new System.Drawing.Point(3, 3);
             this.materialListView1.MouseLocation = new System.Drawing.Point(0, 0);
             this.materialListView1.MouseState = MaterialSkin.MouseState.HOVER;
@@ -724,7 +725,7 @@ namespace MaterialSkinExample
             this.Controls.Add(this.materialDivider1);
             this.Controls.Add(this.materialFlatButton1);
             this.Name = "MainForm";
-            this.Text = "MaterialSkin Demo";
+            this.Text = "MaterialSkin+ Demo";
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

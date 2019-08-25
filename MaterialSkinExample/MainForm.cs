@@ -17,8 +17,8 @@ namespace MaterialSkinExample
             materialSkinManager.AddFormToManage(this);
 			materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             //materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
-            //materialSkinManager.ColorScheme = new ColorScheme(0x57C21849, 0x57C21849, 0x57C21849, 0xC21849, TextShade.WHITE);
-            materialSkinManager.ColorScheme = new ColorScheme("57C21849", "57C21849", "57C21849", "57C21849", TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme("#00480157", "#370142", "DC2EFF", "00BB5FCF", TextShade.WHITE);
+            //materialSkinManager.ColorScheme = new ColorScheme(0x00C926b3, 0xA1008B, 0xDC2EFF, 0x006E70FF, TextShade.WHITE);
             // Add dummy data to the listview
             seedListView();
         }
