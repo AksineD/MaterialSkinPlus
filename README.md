@@ -11,7 +11,7 @@ This is an open version of [Ignace Maes](https://github.com/IgnaceMaes) developm
 
 ---
 
-#### Implementing MaterialSkin in your application
+#### Implementing MaterialSkin+ in your application
 
 **1. Add the library to your project**
 
@@ -73,15 +73,15 @@ End Class
 If you want use a color palette that is not alloweb by Google's Material Design Principle, MaterialSkin+ supports custom colors only providing your colors Hex Codes to the wished ColorScheme parameter.
 
 **Valid Parameter Formats**
-|Parameter|Format|
-|---------|-----|
-|(#)ARGB|"#0000FF00"|
-|(#)RGB|"#00FF00"|
-|(#)ShortRGB|"#00F"|
-|||
-|ARGB|"0000FF00"|
-|RGB|"00FF00"|
-|ShortRGB|"00F"|
+| Parameter | Format |
+| --- | --- |
+| (#)ARGB | "#0000FF00" |
+| (#)RGB | "#00FF00" |
+| (#)ShortRGB | "#00F" |
+| | |
+| ARGB | "0000FF00" |
+| RGB | "00FF00" |
+| ShortRGB | "00F" |
 
 Example:
 
@@ -118,11 +118,11 @@ End Class
 If you want use a color palette that is not alloweb by Google's Material Design Principle, MaterialSkin+ supports custom colors only providing your colors Hex Codes to the wished ColorScheme parameter.
 
 **Valid Parameter Formats**
-|Parameter|Format|
-|---------|-----|
-|ARGB|0x0000FF00|
-|RGB|0x00FF00|
-|ShortRGB|0x00F|
+| Parameter | Format |
+| --- | --- |
+| ARGB | 0x0000FF00 |
+| RGB | 0x00FF00 |
+| ShortRGB | 0x00F |
 
 Example:
 
@@ -163,7 +163,7 @@ This project is under active development.
 ---
 
 ## Credits 👍
-* **React Native InAppBrowser:** [InAppBrowser for React Native](https://github.com/proyecto26/react-native-inappbrowser)
+* **MaterialSkin for .NET WinForms:** [MaterialSkin for .NET WinForms](https://github.com/IgnaceMaes/MaterialSkin)
 
 ---
 
