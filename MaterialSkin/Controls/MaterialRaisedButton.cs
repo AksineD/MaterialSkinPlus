@@ -3,10 +3,10 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.Windows.Forms;
-using MaterialSkin.Animations;
+using MaterialSkinPlus.Animations;
 using System;
 
-namespace MaterialSkin.Controls
+namespace MaterialSkinPlus.Controls
 {
     public class MaterialRaisedButton : Button, IMaterialControl
     {

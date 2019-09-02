@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using MaterialSkin;
-using MaterialSkin.Controls;
+using MaterialSkinPlus;
+using MaterialSkinPlus.Controls;
 
 namespace MaterialSkinExample
 {

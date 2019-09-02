@@ -5,10 +5,10 @@ using System.Drawing.Text;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using MaterialSkin.Controls;
-using MaterialSkin.Properties;
+using MaterialSkinPlus.Controls;
+using MaterialSkinPlus.Properties;
 
-namespace MaterialSkin
+namespace MaterialSkinPlus
 {
     public class MaterialSkinManager
     {

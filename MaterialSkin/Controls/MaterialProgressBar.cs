@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace MaterialSkin.Controls
+namespace MaterialSkinPlus.Controls
 {
     /// <summary>
     /// Material design-like progress bar

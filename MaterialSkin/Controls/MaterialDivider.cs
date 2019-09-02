@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace MaterialSkin.Controls
+namespace MaterialSkinPlus.Controls
 {
     public sealed class MaterialDivider : Control, IMaterialControl
     {

@@ -1,4 +1,4 @@
-﻿namespace MaterialSkin.Animations
+﻿namespace MaterialSkinPlus.Animations
 {
     enum AnimationDirection
     {

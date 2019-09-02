@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Text;
 using System.Windows.Forms;
-using MaterialSkin.Animations;
+using MaterialSkinPlus.Animations;
 
-namespace MaterialSkin.Controls
+namespace MaterialSkinPlus.Controls
 {
     public class MaterialTabSelector : Control, IMaterialControl
     {

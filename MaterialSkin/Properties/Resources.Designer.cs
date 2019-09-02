@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MaterialSkin.Properties {
+namespace MaterialSkinPlus.Properties {
     using System;
     
     

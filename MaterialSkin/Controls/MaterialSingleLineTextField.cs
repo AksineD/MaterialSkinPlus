@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using MaterialSkin.Animations;
+using MaterialSkinPlus.Animations;
 
-namespace MaterialSkin.Controls
+namespace MaterialSkinPlus.Controls
 {
     public class MaterialSingleLineTextField : Control, IMaterialControl
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace MaterialSkin
+namespace MaterialSkinPlus
 {
     public class ColorScheme
     {

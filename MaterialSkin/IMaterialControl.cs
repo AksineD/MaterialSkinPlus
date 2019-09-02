@@ -1,4 +1,4 @@
-﻿namespace MaterialSkin
+﻿namespace MaterialSkinPlus
 {
     public interface IMaterialControl
     {
